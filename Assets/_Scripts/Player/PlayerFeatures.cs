@@ -60,13 +60,6 @@ public class PlayerFeatures : MonoBehaviour
             }
 
         }
-    void OnCollisionEnter2D(Collision2D Collider2D)
-    {
-        if (Collider2D.gameObject.CompareTag("Bullet"))
-        {
-            isJumping = true;
-            //animator.SetTrigger("Idle");
-        }
-    }
+   
 
-    }
+}
