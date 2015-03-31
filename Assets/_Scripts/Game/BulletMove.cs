@@ -27,7 +27,7 @@ public class BulletMove : MonoBehaviour
   void FixedUpdate()
   {
     // Apply movement to the rigidbody
-      transform.Rotate(0, 0, 6);
+      transform.Rotate(0, 0, 20);
       _Rigid.velocity = movement;
   }
 }
